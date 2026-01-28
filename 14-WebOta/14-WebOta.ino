@@ -12,7 +12,7 @@
  *			LED connectée en D4, allumé=bas
  *			Bouton connecté en D3, poussé=bas
  *
- *	V1.0.0 FF - Juillet 2023 - Pour le FabLab
+ *	V1.0.1 FF - Juillet 2023 - Pour le FabLab
  *
  *	GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
  *
@@ -37,8 +37,8 @@
 #include <ArduinoOTA.h>										// Librairie OTA (mise à jour par le réseau)
 
 // Définition du nom du point d'accès à créer
-const char* ssid = "WIFI_SERVEUR_WEB";
-const char* password = "PASSWORD";
+const char* ssid = "WIFI_SERVEUR_WEB";						// <-- Mettre ici le SSID de votre box
+const char* password = "PASSWORD";							// <-- Mettre ici le mot de passe du WiFi de votre box
  
 // Classe serveur Web asynchrone
 AsyncWebServer serveurWeb(80);								// Utiliser le port 80
