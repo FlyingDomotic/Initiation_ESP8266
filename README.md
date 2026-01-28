@@ -3,7 +3,7 @@
 ## A quoi ça sert ?
 Ces fichiers sont une introduction pratique à l'ESP8266. Les exemples fournis utilisent un NodeMCU.
 Il est également possible d'utiliser un D1 mini avec un bouton poussoir, une LED et une résistance.
-Le premiers exemples allument la lampe lorsqu'on appuie sur le bouton.
+Les premiers exemples allument la lampe lorsqu'on appuie sur le bouton.
 Viennent ensuite quelques exemples de serveur Web sur un point d'accès WiFi local.
 Les versions finales couplent les deux, en ajoutant une mise à jour par le réseau.
 
@@ -44,7 +44,7 @@ Utilisez le menu "Outils" pour sélectionner le type ce carte dont vous disposez
 
 ## Exemples fournis
 
-Voici la liste des fichiers d'exemple fournis avec leurs principales caractérisques :
+Voici la liste des fichiers d'exemple fournis avec leurs principales caractéristiques :
 1. TestMinimalNodeMcu : allume la LED lorsqu'on appuie sur le bouton d'un nodeMCU
 2. TestMinimalNodeMcuDefine : ajoute des #define pour isoler les paramètres
 3. TestMinimalMulti : ajoute le support du D1 mini
@@ -54,7 +54,7 @@ Voici la liste des fichiers d'exemple fournis avec leurs principales caractéris
 7. TestDebouncerCallback : ajoute un module anti-rebond (debouncer) avec rétro-appel (callback)
 8. WebMinimal : version minimale d'un serveur Web
 9. WebRequete : ajoute l'affichage de la requête envoyée au serveur
-10. WebLedBouton : intègre bouton et LED de l'exemple 8 et affiche létatu de la LED sur la page Web
+10. WebLedBouton : intègre bouton et LED de l'exemple 8 et affiche l'état de la LED sur la page Web
 11. WebLedBouton2 : ajoute 3 boutons sur la page Web pour changer l'état de la LED
 12. WebAsynchrone : version asynchrone du serveur Web
 13. WebWifiExistant : ajout de la connexion à un WiFi existant
